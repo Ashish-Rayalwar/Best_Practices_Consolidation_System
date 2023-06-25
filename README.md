@@ -4,16 +4,19 @@
 
 ## Overview
 
--The Best Practices Consolidation System is implemented in Node.js and utilizes the ChatGPT API for extracting best practices, identifying similarities, and providing concise explanations. The system follows the following steps:
+- The Best Practices Consolidation System is implemented in Node.js and utilizes the ChatGPT API for extracting best practices, identifying similarities, and providing concise explanations. The system follows the following steps:
 
--Gather a list of articles containing best practices on the desired topic.
--Store the articles' URLs, titles, and contents in a sensible JSON format.
--Implement the logic to extract best practices and their discussions from each article using the ChatGPT API.
--Identify whether two best practices are similar by comparing their extracted text.
--Generate concise explanations for each best practice using explanation(s) provided by the ChatGPT API.
--Consolidate the best practices from all articles into a single list without duplicates, while keeping -track of the article indices that mention each practice.
--Order the consolidated list based on the number of articles discussing each best practice.
--Provide the consolidated list and the corresponding article citations as the output.
+- Gather a list of articles containing best practices on the desired topic.
+
+- Store the articles' URLs, titles, and contents in a sensible JSON format.
+
+- Implement the logic to extract best practices and their discussions from each article using the ChatGPT API.
+
+- Identify whether two best practices are similar by comparing their extracted text.
+- Generate concise explanations for each best practice using explanation(s) provided by the ChatGPT API.
+- Consolidate the best practices from all articles into a single list without duplicates, while keeping track of the article indices that mention each practice.
+- Order the consolidated list based on the number of articles discussing each best practice.
+- Provide the consolidated list and the corresponding article citations as the output.
 
 ### Input parameters
 
