@@ -1,6 +1,6 @@
 ## Best Practices Consolidation System
 
-- - This project aims to create a system that consolidates the best practices from multiple articles on a specific topic. The system takes a list of articles as input and generates a consolidated list of best practices without any duplicates. The ordering of the best practices in the consolidated list is based on the number of articles discussing them.
+- #### This project aims to create a system that consolidates the best practices from multiple articles on a specific topic. The system takes a list of articles as input and generates a consolidated list of best practices without any duplicates. The ordering of the best practices in the consolidated list is based on the number of articles discussing them.
 
 ## Overview
 
